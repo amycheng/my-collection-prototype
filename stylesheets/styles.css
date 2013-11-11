@@ -1,0 +1,79 @@
+/* line 1, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+body {
+  font-size: 16px; }
+
+/* line 4, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+#wrapper {
+  margin: 2em 10%; }
+
+/* line 7, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+#themes {
+  margin-bottom: 1em; }
+
+/* line 10, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+.image {
+  margin: 1em; }
+
+/* line 14, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+.piece {
+  width: 200px;
+  height: 250px;
+  margin-bottom: 1em;
+  margin-right: 1em;
+  background-color: #eeeeee;
+  display: inline-block;
+  border: 1px solid black; }
+
+/* line 24, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+.loader {
+  margin: 1em auto;
+  width: 50px;
+  height: 50px;
+  border-right: 8px solid #999999 !important;
+  border-bottom: 8px solid blue;
+  border-left: 8px solid blue;
+  border-top: 8px solid blue;
+  padding: 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-animation: rotate 2s infinite linear;
+  -moz-animation: rotate 2s infinite linear;
+  -ms-animation: rotate 2s infinite linear;
+  animation: rotate 2s infinite linear; }
+
+@-webkit-keyframes rotate {
+  /* line 43, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  from {
+    -webkit-transform: rotate(0deg); }
+
+  /* line 45, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  to {
+    -webkit-transform: rotate(360deg); } }
+
+@-moz-keyframes rotate {
+  /* line 49, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  from {
+    -moz-transform: rotate(0deg); }
+
+  /* line 51, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  to {
+    -moz-transform: rotate(360deg); } }
+
+@-ms-keyframes rotate {
+  /* line 55, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  from {
+    -ms-transform: rotate(0deg); }
+
+  /* line 57, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  to {
+    -ms-transform: rotate(360deg); } }
+
+@keyframes rotate {
+  /* line 61, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  from {
+    transform: rotate(0deg); }
+
+  /* line 63, /Users/amycheng/Desktop/bm-prototypes/source/stylesheets/styles.css.sass */
+  to {
+    transform: rotate(360deg); } }
